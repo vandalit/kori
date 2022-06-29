@@ -1,0 +1,112 @@
+@media (max-width: 1200px) {
+
+  .border-right{ border: none!important;}
+  .box-news-index{ margin-bottom: 10px; }
+  .box-news-index2{ margin-bottom: 10px; }
+  .box-news-index-text2 { min-height: auto;}
+  .img-fluid { width: 100%;height: auto;}
+  .ladoLeft, .ladoRight { padding-left:28px;  text-align:center; font-size:19px; }
+  .logo-pie{ margin-bottom: 13px;}
+  .mt-5, .my-5 { margin-top: 2rem !important; }
+  .oculto-mobil{ display: none;}
+  .show{ background-color: rgba(255,255,255,.5);/* padding-left: 15px; */}
+
+ 
+
+
+  /* fin ------------- */
+  }
+
+
+
+
+  @media (min-width: 810px) {
+    
+    .quitarDesk{
+      display: none;
+    }
+  
+
+  
+  /* fin ------------- */
+}
+
+
+@media (max-width: 800px) {
+
+  .HomeText h2 {
+    font-size: 50px;
+  }
+  .HomeText p {
+    padding: 0 25px;
+  }
+
+  .HomeTextHabitaciones article{
+	border-right: none;
+   }
+
+  .HomeTextHabitaciones img{
+    width:100%;
+     }
+
+  .textoHomeIsla img{
+      width:100%;
+
+   }
+   .HomeTextHabitaciones article {
+    margin-left: 0px;
+  }
+  .moai{
+    display: none;
+  }
+  .tituloubicacion{
+    margin-top: 50px;
+  }
+  .textoHomeIsla img{
+    width: 80%;
+  }
+  .sectionSlider h3{
+    margin-top: 2vh;
+  }
+  .CabeceraSection img {
+    width: 100px;
+  }
+  .sectionSliderText {
+    margin-top: 1px;
+  }
+  .sectionSliderText h2{
+    font-size: 24px;
+  }
+  .botonPrimarioBig {
+    font-size: 16px;
+  }
+  .HomeText article {
+    margin-top: 60px;
+  }
+  .sectionSlider h2, h3{
+    color:#90A725 !important;
+  }
+  .navbar-collapse {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    background-color: rgba(0,0,0,.8) !important;
+    width: 225px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  .sectionSliderh2{
+    margin-bottom: 15px;
+  }
+  .quitarMobile{
+    display: none;
+  }
+  
+
+
+  /* fin ------------- */
+  }
+
+

@@ -1,0 +1,554 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+p, h1, h2, h3 , h4, h5 { 
+	color: #677688;	
+}
+main{
+	margin: 20px 0;
+}
+
+input, textarea { 
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+
+.section{
+	position: relative;
+}
+.section img{
+	position: absolute;
+	z-index: 3;
+	top: 5px;
+}
+
+.CabeceraSection{
+	width: 100%;
+	background-color: #90a725;
+
+}
+
+
+/* Botones ------------------------ */
+.botonPrimarioBig {
+	background-color:#eca106;
+	color: #fff;
+	font-size: 24px;
+	padding: 16px 67px;
+	font-family: 'Latobold', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 12px;
+
+}
+.botonPrimarioBig:hover{
+	background-color:#000;
+	text-decoration: none !important;	
+	color: #fff;
+
+}
+.botonPrimarioMed {
+	background-color:#eca106;
+	color: #fff;
+	font-size: 14px;
+	padding: 16px 67px;
+	font-family: 'Latobold', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 12px;
+
+}
+.botonPrimarioMed:hover{
+	background-color:#000;
+	text-decoration: none !important;
+	color: #fff;	
+}
+
+.botonSecundarioMed {
+	background-color:#90A725;
+	color: #fff;
+	font-size: 14px;
+	padding: 16px 27px;
+	font-family: 'Latobold', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 12px;
+
+}
+.botonSecundarioMed:hover{
+	background-color:#000;
+	text-decoration: none !important;
+	color: #fff;	
+	
+}
+.botonSecundarioMedBlanco {
+	background-color:#fff;
+	color: #90A725;
+	font-size: 14px;
+	padding: 16px 27px;
+	font-family: 'Latobold', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 12px;
+	display: inline-block;
+}
+.botonSecundarioMedBlanco:hover{
+	background-color:#000;
+	text-decoration: none !important;
+	color: #fff;
+	
+}
+
+/* Contenedor --------------------- */
+.container{ margin: 0 auto;}
+.contenedorFull{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	min-height: 50px;
+}
+.contenedor80{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	min-height: 50px;
+}
+.contenedor90{
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	min-height: 50px;
+}
+
+
+/* Menú --------------------------- */
+
+.navbar {
+	padding: 0;
+  }
+
+.menu{
+	font-size: 14px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: rgba(255, 255, 255, .2);
+}
+
+
+
+/* slider --------------------------- */
+
+.sectionSlider{
+	margin-top: 10px;
+	text-align: center;
+}
+.sliderImg{
+	width: 100%;
+}
+
+.sectionSliderh2{
+	color: #fff;
+	font-family: 'Latobold', sans-serif;
+	font-size: 34px;
+}
+.sectionSliderh3{
+	color: #fff;
+	font-size: 20px;
+}
+.sectionSliderText{
+	margin-top: -190px;
+	margin-bottom: 25px;
+}
+
+
+/* Texto Home Bienvenida --------------------------- */
+
+.HomeText{
+	text-align: center;
+
+}
+.HomeText article{
+	margin-top: 65px;
+
+}
+.HomeText h2{
+	font-family: 'Alex Brush', cursive;
+	color: #eca106;	
+	font-size: 70px;
+
+}
+.HomeText p{
+	color: #677688;	
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+
+
+/* Home Habitaciones --------------------------- */
+
+.HomeTextHabitaciones{
+	margin: 0 auto;
+}
+.HomeTextHabitaciones h2{
+ margin-top: 70px;
+
+}
+.HomeTextHabitaciones a{
+	text-decoration: none;
+}
+.HomeTextHabitaciones img{
+    width:100%;
+     }
+
+
+.HomeTextHabitaciones article{
+ border-right: rgba(0, 0, 0, .2) solid 1px;
+ margin-bottom: 40px;
+}
+
+.HomeTextHabitaciones article:last-child{
+	border-right: none;
+   }
+
+.HomeTextHabitaciones h4{
+	color: #eca106;
+	font-size: 16px;
+	margin-top: 18px;
+	margin-bottom: 0px;
+}
+
+.HomeTextHabitaciones p{
+	margin-top: 0px;
+}
+
+.HomeTextHabitacionesPrecio{
+	color: #eca106;
+	margin-top: 15px;
+	font-family: 'Latobold', sans-serif;
+}
+
+
+
+
+/* Home UBICACION --------------------------- */
+
+.fondoVerdeHomeIsla{
+	background-color:#90A725;
+	padding: 100px 0;
+}
+.fdoMedialuna{
+	background-image: url(/imagenes/mediaLunaBottom.png), url(/imagenes/mediaLunaTop.png);
+  	background-position: bottom,top;
+  	background-repeat: no-repeat, no-repeat;
+	background-size: 100%;
+
+}
+.textoHomeIsla{
+	align-items: center;
+}
+.textoHomeIsla article{
+	text-align: center;
+}
+.textoHomeIsla h4{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+.textoHomeIsla p{
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+/* Home Opiniones --------------------------- */
+.homeOpiniones{
+	justify-content: space-evenly;
+	margin-bottom: 80px;
+}
+
+.homeOpiniones article{
+	text-align: center;
+}
+.homeOpiniones h4{
+	text-align: center;
+	color: #eca106;
+	font-size: 18px;
+	margin: 15px 0;
+
+}
+
+.homeOpiniones p{
+	text-align: center;
+	font-weight:700 ;
+
+}
+.homeOpinionespais{
+	font-weight:700 ;
+	font-size: 12px;
+	color: #A1A7B3;
+
+}
+
+
+/*--------------------------- 
+   FOOTER 
+--------------------------- */
+
+.fondoVerdeFuter{
+	background-color: #607126;
+	padding: 100px 0
+}
+.footer{
+	justify-content: space-evenly;
+}
+
+.footer article{
+	text-align: center;
+}
+.footer p{
+	text-align: center;
+	font-weight:500 ;
+	color: #fff;
+	margin-bottom: 2px;
+}
+.footer i{
+	font-size: 24px;
+	color: #fff;
+	margin: 0 5px;
+
+}
+.rrss{
+	margin-top: 20px;
+}
+
+/* etapas */
+
+.containerreserva{
+	height: 80vh;
+	padding-top: 50px;
+}
+
+.etapascont{
+	margin: 30px auto;
+}
+
+.etapascontSamll{
+	position: relative;
+}
+.etapascont article	{
+	font-weight: bold;
+	text-align: center;
+}
+
+.etapascontActivo	{
+	color: #90a725;
+}
+.etapascontPasivo	{
+	color: #CCCBD3;
+}
+
+.borderEtapasActivo {
+	border-bottom: 4px solid #90A725;
+}
+
+.borderEtapasPasivo {
+	border-bottom: 4px solid #CCCBD3;
+}
+
+.etapascont a{
+ text-decoration: none;
+}
+
+.etapasBotones {
+	border-radius: 12px;
+	padding: 10px 30px;
+	width: 100%;
+}
+
+
+.etapasBotones p{
+	color: #fff;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.btoactivo{
+	background-color: #90a725;
+}
+
+.btopasivo{
+	background-color: #CCCBD3;
+}
+
+.form-control {
+	padding: .375rem 0;
+	font-size: 14;
+	font-weight: 400;
+	line-height: 0;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+  }
+  .form-control::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	opacity: 1;
+  }
+  .form-control:focus {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+  }
+
+/* Adapts a floating label for use with a left-handed input group icon */
+.form-floating > .bi-calendar-date + .datepicker_input + label {
+	padding-left: 3.5rem;
+	z-index: 3;
+	top: 0;
+  }
+
+/* css Cristian en pagina de seleccio */
+
+/* imagen*/
+  .pieza {
+  	width: 100%;
+  	display: block;
+  	border-radius: 12px;
+	
+}
+
+  /* boton */
+.selhab{
+	background-color:#90A725;
+	color: #fff;
+	font-size: 14px;
+	padding: 12px 8px;
+	font-family: 'Latobold', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 12px;
+	display: inline-block;
+}
+.selhab:hover{
+	background-color:#000;
+	text-decoration: none !important;
+	color: #fff;
+}
+.selhab2{
+	background-color:#ECA106;
+	color: #fff;
+	font-size: 14px;
+	padding: 12px 12px;
+	font-family: 'Latobold', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 12px;
+	display: inline-block;
+}
+
+.selhab2:hover{
+	background-color:#000;
+	text-decoration: none !important;
+	color: #fff;
+}
+
+.Tresumen{
+	list-style: none;
+	text-align: center;
+}
+.resum{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.logo{
+	
+		position:relative; 
+		top:-15px;
+		/* aqui le daras un menos tanto dependiendo lo que nececites */
+	
+}
+
+.detalle{
+	text-decoration: none;
+	background: #fff;
+	border:none;
+	color:#677688;
+	
+	
+}
+
+.modalist {
+	list-style-type: none;
+	padding:0px;
+	margin: 0;
+	text-align: left;
+}
+
+.modalist li::before {
+	content: "\2022";
+	color: #90A725;
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 30px;
+	line-height: 15px;
+	vertical-align: -5px;
+	width: 11px;
+	
+	
+}
+.verde{
+	color:#90A725;
+
+}
+
+.modale{
+	border-radius: 12px;
+}
+
+.medialunaSlider {
+	position: absolute;
+	z-index: 15;
+	bottom: -3px;
+	width: 100%;
+  }
+
+  .medialunaSlider img {
+	width: 100%;
+  }
+  .carousel-indicators {
+	bottom: 60px;
+}
+.carousel-caption {
+	bottom: 45px;	
+  }

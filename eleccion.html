@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Iconos CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            /////// Prevent closing from click inside dropdown
+            document.querySelectorAll('.dropdown-menu').forEach(function (element) {
+                element.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                });
+            })
+        });
+        // DOMContentLoaded  end
+    </script>
+    <link rel="icon" href="imagenes/icono.png">
+    <title>Elección habitación</title>
+
+</head>
+
+<body class="container-row">
+    <!-- Cabecera del sitio web -->
+    <header class="CabeceraSection section fixed-top">
+        <section class="container flex ">
+
+            <!-- Logotipo -->
+            <article class="col">
+                <img src="imagenes/logocabecera.png" alt="">
+            </article>
+
+            <!-- Menú principal -->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Habitaciones</a></li>
+                            <li><a href="#">Reservas</a></li>
+                            <li><a href="#">La Isla</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main class="container p-5">
+
+        <!-- ********* HABITACIÓN DE PRUEBA ********* -->
+
+        <div class="row container d-flex  p-5 mt-5 ">
+            <article class="col-12 col-lg-9">
+                <div class="row ">
+                    <div class="col-12  col-lg-6">
+                        <img class="pieza" src="imagenes/habitacion1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 text-center ">
+                        <h6 class="p-1 "><strong>Habitación Doble Privada</strong></h6>
+                        <div class="row">
+
+
+                            <div class="hstack gap-2 col-12">
+                                <div class="mx-auto col-6 text-center">
+                                    <h6>Ocupación Máxima<br>
+                                        <i class="bi bi-person-fill"></i> 2<h6>
+                                </div>
+
+                                <div class="mx-auto col-6">
+                                    <h6>Estadía Mínima<br>
+                                        1 Noche<h6>
+                                </div>
+                            </div>
+
+                            <div class="hstack gap-2 col-12">
+                                <div class="mx-auto col-6">
+                                    <h6 class="text-center">Tarifa estándar<br>
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <h6>
+                                </div>
+
+                                <div class="mx-auto col-6">
+                                    <h6>Precio desde<br>39.990</h6>
+                                </div>
+                            </div>
+
+
+                            <div class="hstack gap-2  col-12">
+                                <div class="mx-auto col-6">
+                                    <!--**** VER DETALLE **** Button modal -->
+
+                                    <button class="detalle text-nowrap mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <i class="bi bi-arrow-down-circle-fill"></i> Ver Detalles</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title verde" id="exampleModalLabel">Detalle de
+                                                        servicios
+                                                        para Habitación
+                                                    </h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <img class="col-lg-6 modale" src="imagenes/modal.jpg">
+                                                        <ul class="col-lg-6 modalist">
+                                                            <li> Baño Privado</li>
+                                                            <li> Desayuno incluido</li>
+                                                            <li> Cama matrimonial</li>
+                                                            <li> Cocina compartida</li>
+                                                            <li> Vista al jardín</li>
+                                                            <li> TV cable</li>
+                                                            <li> Wifi</li>
+                                                            <li> Secador de Cabello</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mx-auto  col-6 ">
+                                    <a class="selhab " href="#">Seleccionar Habitación</a>
+                                </div>
+                            </div>
+                        </div>
+
+            </article>
+            <article class="p-3 col-12 col-lg-3 d-none d-lg-block">
+                <div class="card p-3 text-center" style="width: auto;">
+                    <h5 class="resum">Resúmen</h5>
+                    <p>Habitación Doble Privada</p>
+                    <p class="">por 21 noches</p>
+                    <p><strong>$839.790 CLP</strong></p>
+
+                    <div class="">
+                        <a href="#" class="selhab2">Reservar ahora</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+        <!-- habitación 1 -->
+        <div class="row container d-flex  p-5 mt-5">
+            <article class="col-12 col-lg-9 ">
+                <div class="row">
+                    <div class="col-12  col-lg-6">
+                        <img class="pieza" src="imagenes/habitacion1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 text-center">
+                        <h6 class="p-1 "><strong>Habitación Doble Privada</strong></h6>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 ">
+                                <div>
+                                    <h6>Ocupación Máxima<h6>
+                                            <p><i class="bi bi-person-fill"></i> 2</p>
+                                </div>
+                                <div class="">
+                                    <h6>Tarifa Estandar<h6>
+
+                                </div>
+                            </div>
+                            <div class="col-12  col-lg-6">
+                                <div class="" style="display:inline">
+                                    <h6>Estadía Mínima<h6>
+                                            <p>1 Noche</p>
+                                </div>
+                                <div class="">
+                                    <h6>Precio desde<h6>
+                                            <p><strong>$39.990</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="col-12  col-lg-6">
+                                <div class="">
+                                    <!--**** VER DETALLE **** Button trigger modal -->
+                                    <button class="detalle" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <i class="bi bi-arrow-down-circle-fill"></i> Ver Detalles
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title verde" id="exampleModalLabel">Detalle de
+                                                        servicios
+                                                        para Habitación
+                                                    </h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <img class="col-lg-6 modale" src="imagenes/modal.jpg">
+                                                        <ul class="col-lg-6 modalist">
+                                                            <li> Baño Privado</li>
+                                                            <li> Desayuno incluido</li>
+                                                            <li> Cama matrimonial</li>
+                                                            <li> Cocina compartida</li>
+                                                            <li> Vista al jardín</li>
+                                                            <li> TV cable</li>
+                                                            <li> Wifi</li>
+                                                            <li> Secador de Cabello</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 text-center col-lg-6">
+                                <a class="selhab" href="#">Seleccionar Habitación</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="p-3 col-12 col-lg-3 ">
+                <div class="card p-3 text-center" style="width: auto;">
+                    <h5 class="resum">Resúmen</h5>
+                    <p>Habitación Doble Privada</p>
+                    <p class="">por 21 noches</p>
+                    <p><strong>$839.790 CLP</strong></p>
+
+                    <div class="">
+                        <a href="#" class="selhab2">Reservar ahora</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- habitacion 2 -->
+        <div class="row container d-flex align-items-center justify-content-center p-5 mt-5">
+            <article class="col-12 col-lg-9 ">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <img class="pieza clearfix" src="imagenes/habitacion2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="p-1"><strong>Cama Individual - Habitación Doble Compartida</strong></h6>
+                        <div class="row ">
+                            <div class="col-12 col-lg-6">
+                                <div>
+                                    <h6>Ocupación Máxima<h6>
+                                            <p>✔2</p>
+                                </div>
+                                <div class="">
+                                    <h6>Tarifa Estandar<h6>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="">
+                                    <h6>Estadía Mínima<h6>
+                                            <p>1 Noche</p>
+                                </div>
+                                <div class="">
+                                    <h6>Precio desde<h6>
+                                            <p><strong>$19.990</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="">
+                                    <h6>⬇ Ver Detalles<h6>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <a class="selhab" href="#">Seleccionar Habitación</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-lg-3">
+                <div class="card text-center p-3" style="width: 18rem;">
+                    <h5 class="resum">Resúmen</h5>
+                    <p>Habitación Doble Privada</p>
+                    <p class="">por 21 noches</p>
+                    <p><strong>$419.790 CLP</strong></p>
+
+                    <div class="">
+                        <a href="#" class="selhab2">Reservar ahora</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- habitacion 3 -->
+        <div class="row container d-flex align-items-center justify-content-center p-5 mt-5">
+            <article class="col-12 col-lg-9 ">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <img class="pieza clearfix" src="imagenes/habitacion3.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="p-1"><strong>Cama Individual - Habitación Mixta Compartida</strong></h6>
+                        <div class="row ">
+                            <div class="col-12 col-lg-6">
+                                <div>
+                                    <h6>Ocupación Máxima<h6>
+                                            <p>✔2</p>
+                                </div>
+                                <div class="">
+                                    <h6>Tarifa Estandar<h6>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="">
+                                    <h6>Estadía Mínima<h6>
+                                            <p>1 Noche</p>
+                                </div>
+                                <div class="">
+                                    <h6>Precio desde<h6>
+                                            <p><strong>$19.990</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="">
+                                    <h6>⬇ Ver Detalles<h6>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <a class="selhab" href="#">Seleccionar Habitación</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-lg-3">
+                <div class="card text-center p-3" style="width: 18rem;">
+                    <h5 class="resum">Resúmen</h5>
+                    <p>Habitación Doble Privada</p>
+                    <p class="">por 21 noches</p>
+                    <p><strong>$419.790 CLP</strong></p>
+
+                    <div class="">
+                        <a href="#" class="selhab2">Reservar ahora</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+
+
+
+    </main>
+
+
+
+    <!-- pie de página -->
+    <footer class="container-row fondoVerdeFuter">
+        <section class="container-row footer  ">
+            <article class="col-12">
+                <p>Recepción : +56 9 31868229 - Reservas : 56 9 33914780</p>
+                <p>Simón Paoa s/n, Hanga Roa, Isla de Pascua.</p>
+                <p class="rrss"><a href="#"><i class="bi bi-facebook"></i></a> <a href="#"><i
+                            class="bi bi-instagram"></i></a> <a href="#"><i class="bi bi-whatsapp"></i></a></p>
+            </article>
+        </section>
+    </footer>
+
+
+    <!-- Bootstrap 5  js -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/cambio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

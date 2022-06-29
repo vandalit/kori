@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <!-- Iconos CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet"> 
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+              /////// Prevent closing from click inside dropdown
+              document.querySelectorAll('.dropdown-menu').forEach(function(element){
+                element.addEventListener('click', function (e) {
+                  e.stopPropagation();
+                });
+              })
+          }); 
+        // DOMContentLoaded  end
+      </script>
+      
+      <title>La casa del Kori</title>
+
+</head>
+
+<body>
+    <!-- Cabecera del sitio web -->
+    <header class="CabeceraSection section">
+        <section class="container row ">
+
+            <!-- Logotipo -->
+            <article class="col">
+                <img src="imagenes/logocabecera.png" alt="">
+            </article>
+
+            <!-- Menú principal -->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Habitaciones</a></li>
+                        <li><a href="#">Reservas</a></li>
+                        <li><a href="#">La Isla</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section sectionSlider>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-caption quitarMobile">
+                        <div class="sectionSliderText ">
+                            <h3 class="sectionSliderh3">Disfruta de nuestras comodidades</h3>
+                            <h2 class="sectionSliderh2">RESERVA TU HABITACIÓN</h2>
+                        </div>
+                        <a href="#" class="botonPrimarioBig">DESDE AQUI</a>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="imagenes/carrusel-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/carrusel-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/carrusel-3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="medialunaSlider" >
+                    <img src="imagenes/medialunaSlider.png" >
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="sectionSlider quitarDesk">
+                            <h3 class="sectionSliderh3">Disfruta de nuestras comodidades</h3>
+                            <h2 class="sectionSliderh2">RESERVA TU HABITACIÓN</h2>
+                            <a href="#" class="botonPrimarioBig">DESDE AQUI</a>
+        </section>
+        
+
+        <!--*** Texto de Bienvenida ***-->
+        <section class="container row HomeText ">
+            <article >
+                <h2>Bienvenidos</h2>
+                <p>La Casa del Kori cuenta con ambiente acogedor, familiar y amigable. Junto a nuestro servicio personalizado, son los elementos que definen nuestro concepto, apto para todo tipo de viajeros: parejas, jóvenes, adultos, solos o acompañados, que estén dispuesto a disfrutar de su estadía en el paraíso, como si estuviera en su casa, pudiendo escoger la opción que más se ajuste a sus requerimientos.</p>
+            </article>
+        </section>
+
+        <!-- Habitaciones -->
+        <section class="container row HomeTextHabitaciones text-center">
+            <article class="col" >
+                <h2>ALGUNAS DE NUESTRAS HABITACIONES</h2>
+            </article>
+        </section>
+        <section class="container row HomeTextHabitaciones">
+            <article class="col-12 col-sm-4">
+                <a href="#">
+                    <img src="imagenes/habitacion1.jpg" alt="">
+                    <h4>ALGUNAS DE NUESTRAS HABITACIONES</h4>
+                    <p>Habitación privada con cama matrimonial para momentos de tranquilidad y privacidad. </p>
+                    <p class="HomeTextHabitacionesPrecio">$45.000 / por noche</p>
+                </a>
+            </article>
+            <article class="col-12 col-sm-4">
+                <a href="#">
+                    <img src="imagenes/habitacion2.jpg" alt="">
+                    <h4>ALGUNAS DE NUESTRAS HABITACIONES</h4>
+                    <p>Habitación doble compartida mixta o femenina, con todas las comodidades para una estadía económica y segura. </p>
+                    <p class="HomeTextHabitacionesPrecio">$45.000 / por noche</p>
+                </a>
+            </article>
+            <article class="col-12 col-sm-4">
+                <a href="#">
+                    <img src="imagenes/habitacion3.jpg" alt="">
+                    <h4>ALGUNAS DE NUESTRAS HABITACIONES</h4>
+                    <p>Habitación compartida para quienes buscan hospedarse en un lugar cómodo, seguro y económico.</p>
+                    <p class="HomeTextHabitacionesPrecio">$45.000 / por noche</p>
+                </a>
+            </article>
+        </section>
+        <section class="container row HomeTextHabitaciones text-center">
+            <article class="col">
+                <a class="botonSecundarioMed" href="#">VER MÁS HABITACIONES</a>
+            </article>
+        </section>
+
+        <!-- Sección de Isla -->
+        <div class="fondoVerdeHomeIsla fdoMedialuna ">
+                <section class="container row textoHomeIsla" >
+                    <article class="col-12 col-sm-4">
+                        <img src="imagenes/mapaHome.png" alt="">
+                    </article>
+                    <article class="col-12 col-sm-4 tituloubicacion">
+                        <h4>¿DONDE ESTAMOS UBICADOS?</h4>
+                        <p>Nos encontramos ubicados en un sector residencial a pocos minutos caminando de todas las tiendas, restaurantes y comercio en general. Estamos a 1km de la playa mas cercana al pueblo (quizás un poco menos). 
+                            A pasos del Hospital Hanga Roa.
+                            
+                             Simon Paoa, Hanga Roa, Isla de Pascua, Valparaíso. </p>
+                        <a class="botonSecundarioMedBlanco" href="#">CONOCER MÁS <br>
+                            sobre nuestra ubicación</a>
+                    </article>
+                    <article class="col-12 col-sm-4 moai">
+                        <img src="imagenes/moaisHome.png" alt="">
+                    </article>
+                </section>            
+        </div>
+
+        <!-- Sección de opiniones -->
+        <section class="container row text-center mt-4">
+            <article class="col mb-4">
+                <h2>¿QUÉ OPINAN NUESTROS HUÉSPEDES?</h2>
+            </article>
+        </section>
+
+        <section class="container row homeOpiniones">
+            <article class="col-12 col-sm-4 mb-4">
+                <img src="imagenes/estrellas.png" alt="">
+                    <h4>Excellent beds and super hosts, very friendly and helpful.</h4>
+                    <p>Marcel Smith</p>
+                    <p class="homeOpinionespais">Estados Unidos</p>
+            </article>
+            <article class="col-12 col-sm-4 mb-4">
+                <img src="imagenes/estrellas.png" alt="">
+                    <h4>Me encanto la hospitalidad y la pasamos increíble</h4>
+                    <p>Julieta Gómez</p>
+                    <p class="homeOpinionespais">España</p>
+            </article>
+            <article class="col-12 col-sm-4 mb-4">
+                <img src="imagenes/estrellas.png" alt="">
+                <h4>Friendly owners, realy nice place in good location!</h4>
+                <p>Siarhei</p>
+                <p class="homeOpinionespais">Polonia</p>
+            </article>
+        </section>
+
+
+    </main>
+    <!-- pie de página -->
+    <footer class="fondoVerdeHomeIsla ">
+        <section class="container row footer">
+            <article class="col-12">
+                <p>Recepción : +56 9 31868229 - Reservas : 56 9 33914780</p>
+                <p>Simón Paoa s/n, Hanga Roa, Isla de Pascua.</p>
+                <p class="rrss"><a href="#"><i class="bi bi-facebook"></i></a> <a href="#"><i class="bi bi-instagram"></i></a> <a href="#"><i class="bi bi-whatsapp"></i></a></p>
+            </article>
+        </section>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/cambio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
